@@ -1,1 +1,32 @@
-Hello world
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1 id="header">Battle of the Bears</h1>
+    <div id="Selection-container">
+        <div id="selection-1" class="selection" onclick="select('Grizzly Bear')">
+        <img src="https://gohunt-assets-us-west-2.s3.amazonaws.com/Grizzly-bear-protections-west-OG.jpg" alt="Grizzly Bear">
+         <h2>Grizzly Bear</h2>
+        </div>
+    
+        <div id="selection-2" class="selection" onclick="select('Polar Bear')">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/66/Polar_Bear_-_Alaska_%28cropped%29.jpg" alt="Polar Bear">
+             <h2>Polar Bear</h2>
+        </div>
+       
+                <div id="selection-3" class="selection" onclick="select('Black Bear')">
+                <img src="https://saugeentimes.com/wp-content/uploads/2020/01/Screen-Shot-2020-01-20-at-1.46.02-PM-300x240.png" alt="Black Bear">
+                 <h2>Black Bear</h2>
+                </div>
+            
+    </div>
+    
+        <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+         <script src="js/app.js"></script>
+</body>
+</html>
